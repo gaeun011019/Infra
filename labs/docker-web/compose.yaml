@@ -1,0 +1,5 @@
+services:
+  web:
+    image: nginx@sha256:47928bf67eb62a1863cb08d9ecb52d3e704304ba614eaee17884204677702951
+    ports:
+      - "127.0.0.1:18080:80"
